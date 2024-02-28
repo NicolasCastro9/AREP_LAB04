@@ -36,32 +36,39 @@ Conocimiento básico de Java y programación web.
    ```
 4. Ejecuta el proyecto con el siguiente comando
   ```
-   mvn exec:java
+   java -cp target/classes edu.escuelaing.arem.ASE.app.App
    ```
 5. En el navegador escribir las siguientes rutas, primero para ver los archivos estaticos
     ```
-   http://localhost:35000/action/index.html
+   http://localhost:35000/index
    ```
-    ![image](https://github.com/NicolasCastro9/AREP_LAB03/assets/98556822/65062bcc-0a2b-4883-9b09-5a6028bcc23b)
+    
+   ![image](https://github.com/NicolasCastro9/AREP_LAB04/assets/98556822/fc1bec72-6171-4b9d-8067-67083909e95f)
+
    ```
-   http://localhost:35000/action/image.jpg
+   http://localhost:35000/styles.css
    ```
-   ![image](https://github.com/NicolasCastro9/AREP_LAB03/assets/98556822/2f5edf3b-82b8-442b-ae71-7fa124ddd439)
+   ![image](https://github.com/NicolasCastro9/AREP_LAB04/assets/98556822/e77bfafa-ac20-4d05-b587-b6656a0b3db9)
+
    ```
-   http://localhost:35000/action/tiburon.gif
+   http://localhost:35000/img
    ```
-   ![image](https://github.com/NicolasCastro9/AREP_LAB03/assets/98556822/ef1c953f-e360-4a2c-87bb-def55f9da857)
+   ![image](https://github.com/NicolasCastro9/AREP_LAB04/assets/98556822/4fac4470-db50-45fd-8547-bc47d9d003dc)
+
    ```
-   http://localhost:35000/action/script.js
+   http://localhost:35000/script.js
    ```
-   ![image](https://github.com/NicolasCastro9/AREP_LAB03/assets/98556822/be5d080d-66a1-4224-8e34-958bd90bb0bc)
+   ![image](https://github.com/NicolasCastro9/AREP_LAB04/assets/98556822/810ef2cb-0c8e-4ede-a5c8-25a84ad7e4b3)
+
+   Metodo de prueba para manejar una soilictud GET
    ```
-   http://localhost:35000/action/styles.css
+   http://localhost:35000/hello
    ```   
-   ![image](https://github.com/NicolasCastro9/AREP_LAB03/assets/98556822/4a389e07-94d7-415c-91d7-d58eafdb39cf)
+   ![image](https://github.com/NicolasCastro9/AREP_LAB04/assets/98556822/50481ef9-40aa-4bab-84c8-0294eaea1206)
 
 
-6. Ver MANEJO DE SOLICITUDES GET Y POST con postman
+
+5. Ver MANEJO DE SOLICITUDES GET Y POST con postman
 
    ```
    http://localhost:35000/hello
