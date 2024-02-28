@@ -22,12 +22,14 @@ public class HtmlController {
      * @return una cadena que representa la respuesta HTTP con el saludo.
      */
     @RequestMapping(value = "/hello")
-    public static String index() {
+    public static String hello() {
         return  "HTTP/1.1 200 \r\n" +
                 "Content-Type:text/html\r\n" +
                 "\r\n"+
                 "Greetings from Spring Boot!";
     }
+
+    
 
     /**
      * metodo para la obtencion de recursos tipo html
@@ -35,7 +37,7 @@ public class HtmlController {
      * @throws IOException exepcion
      */
     @RequestMapping(value = "/index")
-    public static String web() throws IOException {
+    public static String index() throws IOException {
         LoadResources l = LoadResources.getInstance();
         l.setType("text/html");
         l.setFile("index.html");

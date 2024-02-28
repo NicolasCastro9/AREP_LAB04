@@ -153,7 +153,7 @@ public class HttpServer {
      * metodo que busca la ubicacion de la carpeta target
      * @return path de la carpeta target
      */
-    private static String getClassPaths() {
+    public static String getClassPaths() {
         String classPath = System.getProperty("java.class.path");
         String[] classPaths = classPath.split(System.getProperty("path.separator"));
         return classPaths[0];

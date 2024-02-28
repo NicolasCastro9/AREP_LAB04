@@ -18,7 +18,7 @@ public class ImgController {
      * @return contenido de "image.jpg".
      * @throws IOException si hay errpr al leer el archivp
      */
-    @RequestMapping(value = "/imagen.jpg")
+    @RequestMapping(value = "/img")
     public static String img() throws IOException {
         LoadResources l = LoadResources.getInstance();
         l.setType("image/jpg");
