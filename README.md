@@ -88,14 +88,24 @@ Conocimiento básico de Java y programación web.
    ![image](https://github.com/NicolasCastro9/AREP_LAB04/assets/98556822/90569149-e761-4b27-a593-9a2e364c683e)
 
 
+## ARQUITECTURA Y DISEÑO
+
+Singleton: La clase HttpServer implementa el patrón Singleton. Esto significa que solo puede haber una instancia de HttpServer en la aplicación. La instancia única se obtiene a través del método getInstance(), que devuelve siempre la misma instancia de la clase. Esto garantiza que el servidor HTTP sea único en toda la aplicación.
+
+Inversión de Control (IoC): El proyecto muestra una forma básica de IoC al utilizar anotaciones como @Component para marcar componentes y @RequestMapping para mapear métodos de controladores a rutas específicas. Esto permite que el contenedor de la aplicación detecte y gestione automáticamente estos componentes y sus dependencias. Por ejemplo, en el controlador HtmlController, se utiliza la instancia de LoadResources sin tener que crearla explícitamente, lo que demuestra una forma de IoC.
+
+
 ## CONSTRUIDO CON
 
 MAVEN -  framework de gestión de proyectos de software
+JAVA - plataforma informática de lenguaje de programación 
 
 ## Dependencias
 JUnit: Framework de pruebas unitarias para Java.
 
-Gson: Biblioteca de Google para trabajar con JSON en Java.
+Mockito: Para crear objetos simulados (mocks) en las pruebas unitarias y configurar su comportamiento.
+
+
 
 ## Autor
 ### Nicolás Castro Jaramillo
