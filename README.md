@@ -1,20 +1,22 @@
-# ARQUITECTURA MICROFRAMEWORK
-En este taller exploraremos la arquitectura básica de un microframework web similar a Spark utilizando solo el API básico de Java. El objetivo es comprender cómo funcionan los microframeworks web y cómo podemos construir uno desde cero sin depender de frameworks como Spark o Spring.
+# Arquitecturas de Servidores de Aplicaciones, Meta protocolos de objetos, Patrón IoC, Reflexión
+Este proyecto es un servidor web básico implementado en Java que puede servir archivos estáticos e imágenes PNG. Además, proporciona un marco de Inversión de Control (IoC) para la construcción de aplicaciones web a partir de Plain Old Java Objects (POJOs).
 
 ## Clases
-HttpServer: Esta clase principal es el punto de entrada del servidor HTTP. Se encarga de iniciar el servidor, manejar las solicitudes entrantes y enrutarlas a los manejadores correspondientes.
+HttpServer: Implementa el servidor HTTP que gestiona las solicitudes entrantes y las dirige a los controladores correspondientes.
 
-Cache: Esta clase implementa un cache que actúa como una memoria para almacenar información de películas.
+LoadResources: Se utiliza para cargar recursos del sistema de archivos y servirlos como respuestas HTTP.
 
-HttpConnection: clase que se utiliza para realizar conexiones HTTP con la API de OMDB y obtener información sobre películas.
+ImgController: Controlador para manejar solicitudes relacionadas con recursos de imágenes.
 
-MovieInfo: clase que representa la información de una película obtenida de la API de OMDB.
+HtmlController: Controlador para manejar solicitudes relacionadas con recursos HTML, CSS y JavaScript.
 
-HttpHandler: Esta clase define los manejadores para las solicitudes GET y POST. Contiene funciones lambda que procesan estas solicitudes y devuelven respuestas adecuadas.
+RequestMapping: Anotación para mapear un método de un controlador a una ruta específica.
 
+ErrorMapping: Anotación para marcar un método como un manejador de errores.
 ## Pre-Requisitos
 
-Asegúrate de tener instalado Java y Maven en tu máquina antes de ejecutar el proyecto.
+Java JDK y Maven instalado en el sistema.
+Conocimiento básico de Java y programación web.
 
 ## Instrucciones de uso
 
