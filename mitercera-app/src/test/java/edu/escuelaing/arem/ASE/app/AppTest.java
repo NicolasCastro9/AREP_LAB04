@@ -13,6 +13,9 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 
+import edu.escuelaing.arem.ASE.app.server.Cache;
+import edu.escuelaing.arem.ASE.app.server.HttpConnection;
+
 /**
  * Unit test for simple App.
  */

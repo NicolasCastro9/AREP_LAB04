@@ -1,4 +1,4 @@
-package edu.escuelaing.arem.ASE.app;
+package edu.escuelaing.arem.ASE.app.server;
 
 import java.io.BufferedReader;
 import java.io.IOException;

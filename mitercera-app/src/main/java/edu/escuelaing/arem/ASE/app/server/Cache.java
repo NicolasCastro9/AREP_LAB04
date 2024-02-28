@@ -1,5 +1,8 @@
-package edu.escuelaing.arem.ASE.app;
+package edu.escuelaing.arem.ASE.app.server;
 import com.google.gson.Gson;
+
+import edu.escuelaing.arem.ASE.app.server.MovieInfo.Rating;
+
 import java.io.*;
 import java.util.HashMap;
 import java.util.List;
@@ -44,7 +47,7 @@ public class Cache {
      * @param jsonMovie Información de la película en formato JSON.
      * @return Cadena HTML con la información de la película.
      */
-    static String buildHtmlFromJson(String jsonMovie) {
+    public static String buildHtmlFromJson(String jsonMovie) {
         Gson gson = new Gson();
         MovieInfo movieInfo = gson.fromJson(jsonMovie, MovieInfo.class);
     

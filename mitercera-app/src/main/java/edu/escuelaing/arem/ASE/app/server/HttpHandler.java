@@ -1,4 +1,4 @@
-package edu.escuelaing.arem.ASE.app;
+package edu.escuelaing.arem.ASE.app.server;
 
 import java.io.IOException;
 import java.io.PrintWriter;
