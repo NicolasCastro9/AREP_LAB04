@@ -1,13 +1,8 @@
-function loadGetMsg() {
-    let nameVar = document.getElementById("name").value;
-    const xhttp = new XMLHttpRequest();
-    xhttp.onload = function() {
-        document.getElementById("getrespmsg").innerHTML =
-            this.responseText;
+var app = (function (){
+    var click = function (){
+        alert("Diste un click");
     }
-    xhttp.open("GET", "/title?name=" + nameVar);
-    xhttp.send();
-    xhttp.overrideMimeType('text/html');
-    xhttp.open("GET", "/title?name=" + nameVar);
-    xhttp.send();
-}
+    return {
+        click: click
+    }
+})();
