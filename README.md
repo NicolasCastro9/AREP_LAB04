@@ -66,37 +66,26 @@ Conocimiento básico de Java y programación web.
    ```   
    ![image](https://github.com/NicolasCastro9/AREP_LAB04/assets/98556822/50481ef9-40aa-4bab-84c8-0294eaea1206)
 
-
-
-5. Ver MANEJO DE SOLICITUDES GET Y POST con postman
+   Ejemplo cuando no existe el recurso
 
    ```
-   http://localhost:35000/hello
-   ```  
-   ![image](https://github.com/NicolasCastro9/AREP_LAB03/assets/98556822/63ddf133-f95c-4e31-b10a-9a7ec3ac7bb9)
-   ![image](https://github.com/NicolasCastro9/AREP_LAB03/assets/98556822/80d99865-3a05-4614-b95d-7bbf6e6b75ac)
+   http://localhost:35000/noexiste
    ```
-   http://localhost:35000/echo
-   ```  
-   ![image](https://github.com/NicolasCastro9/AREP_LAB03/assets/98556822/dcb8ca70-1d3f-4f8e-9df5-e93788621d60)
+   ![image](https://github.com/NicolasCastro9/AREP_LAB04/assets/98556822/e2090b99-de6c-455f-8656-e4cb6a88b731)
 
-
-8. Obtener información de una pelicula como un formato JSON Ejemplo:
-
-   ```
-   http://localhost:35000/title?name=TED
-   ```  
-![image](https://github.com/NicolasCastro9/AREP_LAB03/assets/98556822/4c14fd5b-d65a-4631-882d-cfa05a45a5ab)
-
+   
 
 9. Ejecutando pruebas
    ```
    mvn test
-   ``` 
+   ```
+   ![image](https://github.com/NicolasCastro9/AREP_LAB04/assets/98556822/a9f39a87-bdb1-4a0f-8454-41aa98f147b3)
+
 10. Generar JavaDoc
    ```
    mvn javadoc:javadoc
    ``` 
+   ![image](https://github.com/NicolasCastro9/AREP_LAB04/assets/98556822/90569149-e761-4b27-a593-9a2e364c683e)
 
 
 ## CONSTRUIDO CON
