@@ -13,6 +13,8 @@ HtmlController: Controlador para manejar solicitudes relacionadas con recursos H
 RequestMapping: Anotación para mapear un método de un controlador a una ruta específica.
 
 ErrorMapping: Anotación para marcar un método como un manejador de errores.
+
+Component:  Anotación para marcar una clase como componente.
 ## Pre-Requisitos
 
 Java JDK y Maven instalado en el sistema.
@@ -22,7 +24,7 @@ Conocimiento básico de Java y programación web.
 
 1. Clona el repositorio a tu máquina local:
    ```
-   git clone https://github.com/NicolasCastro9/AREP_LAB03.git
+   git clone https://github.com/NicolasCastro9/AREP_LAB04.git
    ```
 2. En la consola de comandos navegar hasta el directorio donde se encuentra el pom del proyecto
    ```
